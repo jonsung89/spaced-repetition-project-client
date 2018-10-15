@@ -1,9 +1,9 @@
 # Amgi
 
-Live URL: https://amgi.herokuapp.com/
-Server Repo: https://github.com/jonsung89/spaced-repetition-project-server
+- Live URL: https://amgi.herokuapp.com/
+- Server Repo: https://github.com/jonsung89/spaced-repetition-project-server
 
-## What is Amgi?
+### What is Amgi?
 
 - Amgi is a simple flash card that uses spaced repetition algorithms to make learning much more efficient and longer-lasting.
 - Amgi is especially useful for language learners who want an efficient way to learn vocabularies.
