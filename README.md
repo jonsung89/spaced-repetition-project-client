@@ -1,7 +1,7 @@
 # Amgi
 
 Live URL: https://amgi.herokuapp.com/
-Client Repo: https://github.com/jonsung89/spaced-repetition-project-client
+Server Repo: https://github.com/jonsung89/spaced-repetition-project-server
 
 ## What is Amgi?
 
