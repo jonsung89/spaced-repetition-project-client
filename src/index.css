@@ -1,5 +1,56 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+  background: #fff;
+  font-family: 'Karla', Helvetica, sans-serif;
+  text-align: center;
+  font-size: 1em;
+  line-height: 1.5;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 1em 0;
+  font-family: 'Karla', sans-serif;
+  font-weight: 300;
+}
+
+p {
+  margin: 0;
+  padding: 1em 0;
+}
+
+.btn {
+  display: inline-block;
+  background: #f65153;
+  color: #fff;
+  padding: 1em 2em;
+  border: none;
+  border-radius: 20px;
+  margin: 1em 0;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: #2d425f;
+}
+
+.link {
+  display: inline-block;
+  text-decoration: none;
+  color: #2d425f;
+}
+
+.link:hover {
+  color: #f65153;
+  transition: 0.3s;
+}
+
+.field {
+  margin: 2em;
 }

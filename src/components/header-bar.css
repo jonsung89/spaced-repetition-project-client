@@ -1,0 +1,11 @@
+.header-bar {
+  background: #fff;
+}
+
+.header-bar h1 {
+  text-align: left;
+  padding: 0.2em 1em;
+  color: #f65153;
+}
+
+/* btn-logout {} */
