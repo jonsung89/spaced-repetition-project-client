@@ -1,12 +1,26 @@
 .header-bar {
-  display: block;
+  overflow: hidden;
   background: #fff;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
 .header-bar h2 {
-  text-align: left;
+  float: left;
+  display: block;
+  text-align: center;
   padding: 0.3em 1em;
   color: #f65153;
+}
+
+.header-bar a {
+  float: right;
+  display: block;
+  text-align: center;
+  padding: 0.5em 2em;
+  text-decoration: none;
+  font-size: 1.2em;
 }
 
 /* btn-logout {} */

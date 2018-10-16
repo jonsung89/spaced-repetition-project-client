@@ -26,7 +26,6 @@ export function LandingPage(props) {
         <div className="about typewriter">
           <h1>Welcome to Amgi!</h1>
         </div>
-        <a href="#login">Login</a>
       </div>
       <div id="login" className="welcome">
         <div className="welcome-header">

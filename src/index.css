@@ -26,7 +26,7 @@ p {
 }
 
 .btn {
-  display: inline-block;
+  /* display: inline-block; */
   background: #f65153;
   color: #fff;
   padding: 1em 2em;
