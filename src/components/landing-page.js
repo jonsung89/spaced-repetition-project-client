@@ -19,12 +19,28 @@ export function LandingPage(props) {
         <div className="fade" />
         <div className="about typewriter">
           <h1>Welcome to Amgi!</h1>
+          <a href="/#about" className="aboutbtn">
+            About
+          </a>
           <a href="/#login" className="login">
             Log In
           </a>
         </div>
       </div>
-      <div id="login" className="welcome">
+
+      <div id="about" className="about-page">
+        <span className="about-page-content">
+          <h2>What is Amgi?</h2>
+          <a href="/#login" className="login">
+            Log In
+          </a>
+          <a href="/register" className="register">
+            Register
+          </a>
+        </span>
+      </div>
+
+      <div id="login" className="welcome fade-opp">
         <div className="welcome-header">
           <h2>Let's log in!</h2>
           <LoginForm />

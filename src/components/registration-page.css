@@ -1,0 +1,42 @@
+.register {
+  background: linear-gradient(170deg, #fff, #657597);
+  background-size: 100% 100%;
+
+  /* -webkit-animation: AnimationName 0s ease infinite;
+  -moz-animation: AnimationName 0s ease infinite; */
+  animation: AnimationName 0s ease infinite;
+}
+@keyframes AnimationName {
+  0% {
+    background-position: 0% 49%;
+  }
+  50% {
+    background-position: 100% 52%;
+  }
+  100% {
+    background-position: 0% 49%;
+  }
+}
+
+/* @-webkit-keyframes AnimationName {
+  0% {
+    background-position: 0% 49%;
+  }
+  50% {
+    background-position: 100% 52%;
+  }
+  100% {
+    background-position: 0% 49%;
+  }
+}
+@-moz-keyframes AnimationName {
+  0% {
+    background-position: 0% 49%;
+  }
+  50% {
+    background-position: 100% 52%;
+  }
+  100% {
+    background-position: 0% 49%;
+  }
+} */

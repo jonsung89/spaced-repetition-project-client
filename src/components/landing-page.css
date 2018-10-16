@@ -13,9 +13,24 @@
   transition: 0.3s;
 }
 
-a.login {
+a.aboutbtn {
   display: inline-block;
   background: #b8bfc6;
+  color: white;
+  text-decoration: none;
+  padding: 1em 2em;
+  margin-top: 2em;
+  border: 1px solid #fff;
+}
+
+a.aboutbtn:hover {
+  background: #7c9fc2;
+  transition: 1s;
+}
+
+a.login {
+  display: inline-block;
+  background: #f58a7e;
   color: white;
   text-decoration: none;
   padding: 1em 2em;
@@ -24,8 +39,23 @@ a.login {
 }
 
 a.login:hover {
-  background: #7c9fc2;
-  transition: 1s;
+  background: #f65153;
+  transition: 0.51s;
+}
+
+a.register {
+  display: inline-block;
+  background: #a9bdce;
+  color: #fff;
+  text-decoration: none;
+  padding: 1em 2em;
+  margin: 2em;
+  border: 1px solid #fff;
+}
+
+a.register:hover {
+  background: #668ba3;
+  transition: 0.3s;
 }
 
 .bg {
@@ -85,54 +115,41 @@ a.login:hover {
   font-family: monospace;
 }
 
+.about-page {
+  position: relative;
+  height: 100vh;
+}
+
+.about-page-content {
+  margin: 0;
+  position: absolute; /* 2 */
+  top: 50%; /* 3 */
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+
 .welcome {
   position: relative;
-  width: 100%;
   height: 100vh;
-  max-height: 100%;
-  margin: 0;
-  padding: 0;
-  background: #fff;
+  background: #f5b2ab;
+}
+
+.welcome.fade-opp {
+  bottom: 0;
+  width: 100%;
+  background: rgba(255, 255, 255, 0)
+    linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, #ffc978) repeat scroll
+    0 0;
 }
 
 .welcome-header {
-  position: absolute;
-  top: 50%;
+  margin: 0;
+  position: absolute; /* 2 */
+  top: 50%; /* 3 */
   left: 50%;
-  height: 30%;
-  width: 50%;
-  margin: -45% 0 0 -25%;
-}
-
-/* ====== media bigger than 555px ====== */
-@media (min-width: 555px) {
-  .about {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    height: 80%;
-    width: 50%;
-    margin: -10% 0 0 -25%;
-    color: #666;
-  }
-  .welcome {
-    position: relative;
-    width: 100%;
-    height: 100vh;
-    max-height: 100%;
-    margin: 0;
-    padding: 0;
-    background: #fff;
-  }
-
-  .welcome-header {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    height: 30%;
-    width: 50%;
-    margin: -35% 0 0 -25%;
-  }
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
 }
 
 /* ====== media bigger than 775px ====== */
@@ -225,20 +242,14 @@ a.login:hover {
 
   .welcome {
     position: relative;
-    width: 100%;
-    height: 100vh;
-    max-height: 100%;
-    margin: 0;
-    padding: 0;
-    background: #fff;
   }
 
   .welcome-header {
-    position: absolute;
-    top: 50%;
+    margin: 0;
+    position: absolute; /* 2 */
+    top: 50%; /* 3 */
     left: 50%;
-    height: 30%;
-    width: 50%;
-    margin: -25% 0 0 -25%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
   }
 }
