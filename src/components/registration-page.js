@@ -11,18 +11,30 @@ export function RegistrationPage(props) {
     return <Redirect to="/dashboard" />;
   }
   return (
-    <div className="home">
-      <h2>Register for Amgi</h2>
-      <RegistrationForm />
-      <p>
-        Already have an account? Login{' '}
-        <Link to="/" className="link">
-          here
-        </Link>
-      </p>
+    <div id="register" className="welcome">
+      <div className="welcome-header">
+        <h2>Let's sign up!</h2>
+        <RegistrationForm />
+        <p>
+          Already have an account? Login{' '}
+          <Link to="/" className="link">
+            here
+          </Link>
+        </p>
+      </div>
     </div>
   );
 }
+
+// {/* <div id="login" className="welcome">
+//   <div className="welcome-header">
+//     <h2>Let's log in!</h2>
+//     <LoginForm />
+//     <Link to="/register" className="register-link">
+//       Register
+//           </Link>
+//   </div>
+// </div> */}
 
 const mapStateToProps = state => ({
   loggedIn: state.auth.currentUser !== null

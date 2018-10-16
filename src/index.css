@@ -36,21 +36,6 @@ p {
   transition: 0.3s;
 }
 
-.btn:hover {
-  background: #2d425f;
-}
-
-.link {
-  display: inline-block;
-  text-decoration: none;
-  color: #2d425f;
-}
-
-.link:hover {
-  color: #f65153;
-  transition: 0.3s;
-}
-
 .field {
   margin: 2em;
 }

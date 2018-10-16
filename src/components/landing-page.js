@@ -12,12 +12,6 @@ export function LandingPage(props) {
     return <Redirect to="/dashboard" />;
   }
 
-  // <div className="nav">
-  //   <a className="btn" href="#login">
-  //     <span>About</span>
-  //   </a>
-  // </div>;
-
   return (
     <div className="home">
       <div className="bg">
@@ -25,13 +19,16 @@ export function LandingPage(props) {
         <div className="fade" />
         <div className="about typewriter">
           <h1>Welcome to Amgi!</h1>
+          <a href="/#login" className="login">
+            Log In
+          </a>
         </div>
       </div>
       <div id="login" className="welcome">
         <div className="welcome-header">
           <h2>Let's log in!</h2>
           <LoginForm />
-          <Link to="/register" className="link">
+          <Link to="/register" className="register-link">
             Register
           </Link>
         </div>
