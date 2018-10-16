@@ -54,3 +54,9 @@ p {
 .field {
   margin: 2em;
 }
+
+.img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
