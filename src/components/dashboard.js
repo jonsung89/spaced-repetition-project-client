@@ -22,10 +22,10 @@ export class Dashboard extends React.Component {
             </p>
         );
 
-        console.log('Question: ', this.props.questions);
-        console.log('Correct Answer: ', this.props.correctAnswer);
-        console.log('User Answer: ', this.props.userAnswered);
-        console.log('Feedback: ', this.props.feedback);
+        // console.log('Question: ', this.props.questions);
+        // console.log('Correct Answer: ', this.props.correctAnswer);
+        // console.log('User Answer: ', this.props.userAnswered);
+        // console.log('Feedback: ', this.props.feedback);
 
         return (
             <div className="bg">

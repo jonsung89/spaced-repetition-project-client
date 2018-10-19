@@ -2,7 +2,7 @@ import React from 'react';
 import { connect } from 'react-redux';
 
 // import buttonStyles from './styles/button.module.css';
-import inputStyles from './inputStyles.css';
+// import inputStyles from './inputStyles.css';
 // import formStyles from './styles/forms.module.css';
 
 import { validateUserInput, getQuestionData } from '../actions/questions';
