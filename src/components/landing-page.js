@@ -31,6 +31,9 @@ export function LandingPage(props) {
       <div id="about" className="about-page">
         <span className="about-page-content">
           <h2>What is Amgi?</h2>
+          <span className="desc">
+            <p><span className="Amgi">Amgi</span> uses spaced repetition to improve learning. Users can create their own accounts and begin tracking their progress. As of now, there are only ten common Korean phrases that users can study and memorize. Eventually, more words will be added with a feature that will allow users to input new words of their choosing. Other languages are soon to be implemented as well.</p>
+          </span>
           <a href="/#login" className="login">
             Log In
           </a>
