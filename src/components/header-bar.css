@@ -15,4 +15,8 @@
   color: #f65153;
 }
 
-/* btn-logout {} */
+.btn-logout {
+  float: right;
+  display: block;
+  text-align: center;
+}
