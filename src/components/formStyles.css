@@ -1,0 +1,42 @@
+.allContent {
+  /* width: 40%; */
+  margin: 0 auto;
+  margin-top: 20vh;
+  text-align: center;
+}
+
+.logo {
+  width: 50px;
+  display: block;
+  margin: 0 auto;
+}
+
+.logoLink {
+  text-decoration: none;
+}
+
+.header {
+  color: white;
+  font-weight: 900;
+  font-size: 2em;
+  text-align: center;
+}
+
+.linkToOtherForm {
+  text-align: center;
+}
+
+.emojiForm {
+  text-align: center;
+  margin-top: 25px;
+}
+
+.emojiForm input {
+  display: block;
+  margin: 0 auto;
+}
+
+.loginForm,
+.registerForm {
+  text-align: center;
+}

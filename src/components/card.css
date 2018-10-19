@@ -1,0 +1,28 @@
+.card {
+  box-sizing: border-box;
+  width: 250px;
+  height: 230px;
+  border-radius: 25px;
+  background-color: #fff;
+  color: #333;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 4em;
+  left:0;
+  right:0;
+  max-width:100%;
+  max-height:100%;
+  top:0; bottom:0;
+  margin:1.5em 0 1.5em 0;
+}
+
+.question {
+  font-size: 1.5em;
+  padding-bottom: 1.5em;  
+}
+
+p.description {
+  text-transform: capitalize;
+  margin-top: -5px;
+  color: #f65153;
+}
