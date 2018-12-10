@@ -17,7 +17,7 @@
 
 ## Minimum Variable Product
 
-- For now, Amgi will only have 10 things for you to try and memorize.
+- For now, Amgi has 10 common Korean phrases for you to memorize.
 - Tell the app whether or not you remember something by selecting 'Yes' or 'No'.
 
 ## Additional features to add
