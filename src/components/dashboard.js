@@ -31,27 +31,22 @@ export class Dashboard extends React.Component {
             <div className="bg">
                 <div className="bg-img" />
                 <div className="fade" />
-
                 <div className="dashboard">
-  
-                        <h2>Hello {this.props.username}!</h2>
-                        <div className="dashboardFeedback">{this.props.userAnswered ? feedbackTag : ''}</div>
+                    <h2>Hello {this.props.username}!</h2>
+                    <div className="dashboardFeedback">{this.props.userAnswered ? feedbackTag : ''}</div>
 
-                        <div aria-live="polite" className="card-container">
-                            <Card
-                                correctAnswer={this.props.correctAnswer}
-                                question={this.props.questions}
-                                userAnswered={this.props.userAnswered}
-                                aria-label="card"
-                            />
-
-                            <Quiz
-                                userAnswered={this.props.userAnswered}
-                                aria-label="quiz form"
-                            />
-                        </div>
-
-                    
+                    <div aria-live="polite" className="card-container">
+                        <Card
+                            correctAnswer={this.props.correctAnswer}
+                            question={this.props.questions}
+                            userAnswered={this.props.userAnswered}
+                            aria-label="card"
+                        />
+                        <Quiz
+                            userAnswered={this.props.userAnswered}
+                            aria-label="quiz form"
+                        />
+                    </div>
                 </div>
             </div>
 

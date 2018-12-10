@@ -1,7 +1,7 @@
 import React from 'react';
 import { connect } from 'react-redux';
-
 import { validateUserInput, getQuestionData } from '../actions/questions';
+import './quiz.css';
 
 export class Quiz extends React.Component {
   onSubmit(event) {
@@ -13,7 +13,9 @@ export class Quiz extends React.Component {
     // vanilla JS way of resetting value of the input
     document.getElementById('answer').value = '';
 
-    this.props.dispatch(validateUserInput(userInput));
+    if(userInput !== '') {
+      this.props.dispatch(validateUserInput(userInput));
+    }
   }
 
   nextButton(event) {
@@ -28,19 +30,19 @@ export class Quiz extends React.Component {
         onClick={event => this.nextButton(event)}
       >
         Next
-            </button>
+      </button>
     ) : (
-        <React.Fragment>
-          <label htmlFor="answer">Your Answer:</label><br />
-          <input id="answer" type="text" name="answer" /><br/>
-          <button
-            className="btn"
-            onClick={event => this.onSubmit(event)}
-          >
-            Submit
-                </button>
-        </React.Fragment>
-      );
+      <React.Fragment>
+        <label htmlFor="answer" className="answer-label">Your Answer:</label><br />
+        <input id="answer" type="text" name="answer" /><br/>
+        <button
+          className="btn"
+          onClick={event => this.onSubmit(event)}
+        >
+          Submit
+        </button>
+      </React.Fragment>
+    );
 
     return (
       <div>

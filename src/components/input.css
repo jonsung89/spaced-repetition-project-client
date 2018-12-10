@@ -1,15 +1,14 @@
+
+
 .formInput {
   text-align: center;
 }
 
 .formInput input {
-  
   border-radius: 20px;
   border: none;
   height: 30px;
   width: 180px;
   padding: 0 7px;
   margin-bottom: 10px;
-
-  
 }
