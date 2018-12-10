@@ -1,5 +1,7 @@
 # Amgi
 
+<h2 align="center"><img width=75% src="/src/img/landing-page.png" alt="Amgi-landingpage"></h2>
+
 <p align="left">
   <strong>
     <a href="https://amgi.herokuapp.com/" target="_blank">Live URL</a> <br />
