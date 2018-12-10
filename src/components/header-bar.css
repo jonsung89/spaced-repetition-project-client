@@ -15,6 +15,10 @@
   color: #f65153;
 }
 
+.logout-container {
+  margin-right: 1em;
+}
+
 .btn-logout {
   float: right;
   display: block;

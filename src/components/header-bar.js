@@ -23,7 +23,9 @@ export class HeaderBar extends React.Component {
     return (
       <div className="header-bar" aria-label="navigation">
         <h2>Amgi</h2>
-        {logOutButton}
+        <div className="logout-container">
+          {logOutButton}
+        </div>
       </div>
     );
   }
