@@ -37,7 +37,7 @@ export class Dashboard extends React.Component {
                         <h2>Hello {this.props.username}!</h2>
                         <div className="dashboardFeedback">{this.props.userAnswered ? feedbackTag : ''}</div>
 
-                        <div aria-live="polite">
+                        <div aria-live="polite" className="card-container">
                             <Card
                                 correctAnswer={this.props.correctAnswer}
                                 question={this.props.questions}

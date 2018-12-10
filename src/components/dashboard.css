@@ -1,5 +1,5 @@
 .dashboard {
-  width: 250px;
+  width: 350px;
   height: 250px;
   position: absolute;
   left:0;
@@ -33,4 +33,3 @@
   background-color: #2d425f;
   color: white;
 }
-
