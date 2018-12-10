@@ -1,7 +1,11 @@
 # Amgi
 
-- Live URL: https://amgi.herokuapp.com/
-- Server Repo: https://github.com/jonsung89/spaced-repetition-project
+<p align="left">
+  <strong>
+    <a href="https://amgi.herokuapp.com/" target="_blank">Live URL</a>
+    <a href="https://github.com/jonsung89/spaced-repetition-project" target="_blank">Server Repo</a>
+  </strong>
+</p>
 
 ### What is Amgi?
 
