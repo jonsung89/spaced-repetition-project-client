@@ -1,6 +1,6 @@
 # Amgi
 
-<h2 align="center"><img width=75% src="/src/img/landing-page.png" alt="Amgi-landingpage"></h2>
+<h2 align="center"><img width=100% src="/src/img/landing-page.png" alt="Amgi-landingpage"></h2>
 
 <p align="left">
   <strong>
