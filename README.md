@@ -10,6 +10,14 @@
   </strong>
 </p>
 
+```
+Demo Account
+
+Username: demo
+password: demopassword
+
+```
+
 ## What is Amgi?
 
 - Amgi is a simple flash card that uses spaced repetition algorithms to make learning much more efficient and longer-lasting.
