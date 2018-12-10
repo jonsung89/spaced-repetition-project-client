@@ -131,8 +131,10 @@ a.register:hover {
 }
 
 .desc p {
-  margin: 0 5em;
+  /* margin: 0 5em; */
+  margin: auto;
   padding: 2em 2em;
+  width: 50%;
   background-color: #2d425f;
   color: #fff;
   border-radius: 5px;
