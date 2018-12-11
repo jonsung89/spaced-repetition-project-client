@@ -19,7 +19,7 @@ a.aboutbtn {
   color: white;
   text-decoration: none;
   padding: 1em 2em;
-  margin-top: 2em;
+  margin: 2em 1em;
   border: 1px solid #fff;
 }
 
@@ -34,7 +34,7 @@ a.login {
   color: white;
   text-decoration: none;
   padding: 1em 2em;
-  margin: 2em;
+  margin: 2em 1em;
   border: 1px solid #fff;
 }
 
@@ -50,7 +50,7 @@ a.register {
   color: #fff;
   text-decoration: none;
   padding: 1em 2em;
-  margin: 2em;
+  margin: 2em 1em;
   border: 1px solid #fff;
 }
 
@@ -100,7 +100,7 @@ a.register:hover {
 
 .about {
   position: absolute;
-  top: 50%;
+  top: 60%;
   left: 50%;
   height: 80%;
   width: 50%;
@@ -268,5 +268,36 @@ a.register:hover {
     left: 50%;
     margin-right: -50%;
     transform: translate(-50%, -50%);
+  }
+}
+
+@media (max-width: 414px) {
+  .about {
+    top: 42%;
+    left: 10%;
+    height: 80%;
+    width: 80%;
+    margin: auto;
+  }
+  .typewriter h1 {
+    width: 80%;
+    margin: auto;
+    padding: 0.5em 1em;
+  }
+  a.aboutbtn {
+    padding: 0.5em 1.5em;
+    margin: 1.5em 0.5em;
+  }
+  a.login {
+    padding: 0.5em 1.5em;
+    margin: 1.5em 0.5em;
+  }
+  a.register {
+    padding: 0.5em 1.5em;
+    margin: 1.5em 0.5em;
+  }
+  .desc p {
+    padding: 1em 1em;
+    width: 70%;
   }
 }
