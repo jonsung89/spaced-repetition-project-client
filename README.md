@@ -23,10 +23,10 @@ password: demopassword
 - Amgi is a simple flash card that uses spaced repetition algorithms to make learning much more efficient and longer-lasting.
 - Amgi is especially useful for language learners who want an efficient way to learn vocabularies.
 
-## Minimum Variable Product
+## Minimum Viable Product
 
-- For now, Amgi has 10 common Korean phrases for you to memorize.
-- Tell the app whether or not you remember something by selecting 'Yes' or 'No'.
+- Amgi has at least 10 common Korean phrases for users to memorize.
+- (Using linked list) If user answers correctly, the phrase gets added to the end of the list. If answers wrong, it gets added one after.
 
 ## Additional features to add
 
